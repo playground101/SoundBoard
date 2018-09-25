@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0411B8BD2159CD1B00936B47 /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0411B8B92159CD1B00936B47 /* sound2.mp3 */; };
+		0411B8BE2159CD1B00936B47 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0411B8BA2159CD1B00936B47 /* sound1.mp3 */; };
+		0411B8BF2159CD1B00936B47 /* sound4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0411B8BB2159CD1B00936B47 /* sound4.mp3 */; };
+		0411B8C02159CD1B00936B47 /* sound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0411B8BC2159CD1B00936B47 /* sound3.mp3 */; };
 		04BE0FA12159CAF200505AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE0FA02159CAF200505AB0 /* AppDelegate.swift */; };
 		04BE0FA32159CAF200505AB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE0FA22159CAF200505AB0 /* ViewController.swift */; };
 		04BE0FA52159CAF400505AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE0FA42159CAF400505AB0 /* Assets.xcassets */; };
 		04BE0FA82159CAF400505AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE0FA62159CAF400505AB0 /* Main.storyboard */; };
+		04BE0FB12159CB1C00505AB0 /* SoundBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE0FB02159CB1C00505AB0 /* SoundBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0411B8B92159CD1B00936B47 /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
+		0411B8BA2159CD1B00936B47 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		0411B8BB2159CD1B00936B47 /* sound4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound4.mp3; sourceTree = "<group>"; };
+		0411B8BC2159CD1B00936B47 /* sound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound3.mp3; sourceTree = "<group>"; };
 		04BE0F9D2159CAF200505AB0 /* SoundBoard1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE0FA02159CAF200505AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BE0FA22159CAF200505AB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +30,7 @@
 		04BE0FA72159CAF400505AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04BE0FA92159CAF400505AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BE0FAA2159CAF400505AB0 /* SoundBoard1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoundBoard1.entitlements; sourceTree = "<group>"; };
+		04BE0FB02159CB1C00505AB0 /* SoundBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				04BE0FA62159CAF400505AB0 /* Main.storyboard */,
 				04BE0FA92159CAF400505AB0 /* Info.plist */,
 				04BE0FAA2159CAF400505AB0 /* SoundBoard1.entitlements */,
+				04BE0FB02159CB1C00505AB0 /* SoundBoard.swift */,
+				0411B8BA2159CD1B00936B47 /* sound1.mp3 */,
+				0411B8B92159CD1B00936B47 /* sound2.mp3 */,
+				0411B8BC2159CD1B00936B47 /* sound3.mp3 */,
+				0411B8BB2159CD1B00936B47 /* sound4.mp3 */,
 			);
 			path = SoundBoard1;
 			sourceTree = "<group>";
@@ -121,7 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0411B8C02159CD1B00936B47 /* sound3.mp3 in Resources */,
+				0411B8BF2159CD1B00936B47 /* sound4.mp3 in Resources */,
+				0411B8BD2159CD1B00936B47 /* sound2.mp3 in Resources */,
 				04BE0FA52159CAF400505AB0 /* Assets.xcassets in Resources */,
+				0411B8BE2159CD1B00936B47 /* sound1.mp3 in Resources */,
 				04BE0FA82159CAF400505AB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +154,7 @@
 			files = (
 				04BE0FA32159CAF200505AB0 /* ViewController.swift in Sources */,
 				04BE0FA12159CAF200505AB0 /* AppDelegate.swift in Sources */,
+				04BE0FB12159CB1C00505AB0 /* SoundBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
